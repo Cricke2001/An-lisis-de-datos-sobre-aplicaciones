@@ -6,7 +6,7 @@ URL CSV: https://drive.google.com/file/d/1XX1NKxgOQr4P_92e1YVHeqbvzMpyt6dq/view?
 
 ¡Claro! Aquí tienes un ejemplo de un archivo README detallado para un proyecto en Python que utiliza bases de datos y bibliotecas como Pandas, Matplotlib, Seaborn y Jupyter Notebook.
 
-markdown
+
 Copiar código
 # Proyecto de Análisis de Datos con Pandas y Visualización con Matplotlib y Seaborn
 
@@ -25,7 +25,7 @@ Este proyecto tiene como objetivo realizar un análisis exploratorio de datos (E
 ## Instalación
 
 1. **Clonar el repositorio**:
-   markdown
+   
    ```bash
    git clone https://github.com/tu_usuario/nombre_del_repositorio.git
    cd nombre_del_repositorio
