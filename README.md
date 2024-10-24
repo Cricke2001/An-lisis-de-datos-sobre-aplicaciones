@@ -99,7 +99,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## Autor
 
-[Carlos Ricke] - [carlosricke.p@protonmail.com] - [@Cricke2001]
+[Carlos Ricke] - [carlosricke.p@gmail.com] - [@Cricke2001]
 
 ---
 
