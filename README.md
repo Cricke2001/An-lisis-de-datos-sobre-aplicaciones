@@ -25,6 +25,7 @@ Este proyecto tiene como objetivo realizar un análisis exploratorio de datos (E
 ## Instalación
 
 1. **Clonar el repositorio**:
+   markdown
    ```bash
    git clone https://github.com/tu_usuario/nombre_del_repositorio.git
    cd nombre_del_repositorio
