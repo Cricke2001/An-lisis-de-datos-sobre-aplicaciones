@@ -1,6 +1,3 @@
-
-
-```markdown
 # Proyecto de Análisis de Datos con Pandas y Visualización con Matplotlib y Seaborn
 
 URL CSV: https://drive.google.com/file/d/1XX1NKxgOQr4P_92e1YVHeqbvzMpyt6dq/view?usp=sharing
