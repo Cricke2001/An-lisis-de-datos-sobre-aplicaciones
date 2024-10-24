@@ -100,11 +100,9 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## Autor
 
-[Tu Nombre] - [Tu Correo Electrónico] - [Tu Perfil de GitHub]
+[Carlos Ricke] - [carlosricke.p@protonmail.com] - [@Cricke2001]
 
 ---
 
 ¡Gracias por tu interés en este proyecto! Espero que encuentres útil este análisis y las visualizaciones generadas.
 ```
-
-Puedes personalizar este README según las características específicas de tu proyecto y los datos que estés utilizando. ¡Espero que te sirva!
