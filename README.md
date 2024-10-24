@@ -1,13 +1,6 @@
-# Analisis-de-datos-sobre-aplicaciones
- Este proyecto de Python utiliza técnicas de Big Data para analizar aplicaciones de la Play Store. A través de herramientas, se generan insights sobre tendencias de popularidad y satisfacción del usuario. Los resultados permiten identificar oportunidades para desarrolladores y mejorar estrategias de marketing en el sector de aplicaciones móviles.
-
-URL CSV: https://drive.google.com/file/d/1XX1NKxgOQr4P_92e1YVHeqbvzMpyt6dq/view?usp=sharing
 
 
-¡Claro! Aquí tienes un ejemplo de un archivo README detallado para un proyecto en Python que utiliza bases de datos y bibliotecas como Pandas, Matplotlib, Seaborn y Jupyter Notebook.
-
-
-Copiar código
+```markdown
 # Proyecto de Análisis de Datos con Pandas y Visualización con Matplotlib y Seaborn
 
 ## Descripción
@@ -25,68 +18,93 @@ Este proyecto tiene como objetivo realizar un análisis exploratorio de datos (E
 ## Instalación
 
 1. **Clonar el repositorio**:
-   
    ```bash
    git clone https://github.com/tu_usuario/nombre_del_repositorio.git
    cd nombre_del_repositorio
-Instalar las dependencias: Asegúrate de tener Python y pip instalados. Luego, ejecuta:
-bash
-Copiar código
-pip install pandas matplotlib seaborn jupyter
-Uso
-Abrir Jupyter Notebook: En la terminal, dentro del directorio del proyecto, ejecuta:
+   ```
 
-bash
-Copiar código
-jupyter notebook
-Esto abrirá el navegador con la interfaz de Jupyter.
+2. **Instalar las dependencias**:
+   Asegúrate de tener Python y pip instalados. Luego, ejecuta:
+   ```bash
+   pip install pandas matplotlib seaborn jupyter
+   ```
 
-Ejecutar el Notebook: Abre el archivo analisis_datos.ipynb y sigue las celdas para ver el análisis paso a paso.
+## Uso
 
-**Contenido del Proyecto**
-*data/:* Carpeta que contiene los archivos de datos utilizados en el análisis.
-*analisis_datos.ipynb:* Notebook de Jupyter que contiene todo el análisis, visualizaciones y comentarios sobre el conjunto de datos.
-*visualizaciones/:* Carpeta con gráficos generados durante el análisis, almacenados como imágenes.
+1. **Abrir Jupyter Notebook**:
+   En la terminal, dentro del directorio del proyecto, ejecuta:
+   ```bash
+   jupyter notebook
+   ```
+   Esto abrirá el navegador con la interfaz de Jupyter.
 
-**Ejemplo de Análisis**
+2. **Ejecutar el Notebook**:
+   Abre el archivo `analisis_datos.ipynb` y sigue las celdas para ver el análisis paso a paso.
+
+## Contenido del Proyecto
+
+- **`data/`**: Carpeta que contiene los archivos de datos utilizados en el análisis.
+- **`analisis_datos.ipynb`**: Notebook de Jupyter que contiene todo el análisis, visualizaciones y comentarios sobre el conjunto de datos.
+- **`visualizaciones/`**: Carpeta con gráficos generados durante el análisis, almacenados como imágenes.
+
+## Ejemplo de Análisis
+
 En el Notebook se realizan los siguientes pasos:
 
-**Carga de Datos:** Se cargan los datos utilizando Pandas, y se realizan inspecciones iniciales para entender la estructura del conjunto de datos.
+1. **Carga de Datos**:
+   Se cargan los datos utilizando Pandas, y se realizan inspecciones iniciales para entender la estructura del conjunto de datos.
+   ```python
+   import pandas as pd
+   df = pd.read_csv('data/dataset.csv')
+   print(df.head())
+   ```
 
+2. **Limpieza de Datos**:
+   Se identifican y manejan valores nulos, tipos de datos y se eliminan duplicados.
+   ```python
+   df.dropna(inplace=True)
+   df = df.drop_duplicates()
+   ```
 
-import pandas as pd
-df = pd.read_csv('data/dataset.csv')
-print(df.head())
-Limpieza de Datos: Se identifican y manejan valores nulos, tipos de datos y se eliminan duplicados.
+3. **Análisis Exploratorio**:
+   Se generan estadísticas descriptivas y se visualizan relaciones entre variables utilizando Seaborn y Matplotlib.
+   ```python
+   import seaborn as sns
+   import matplotlib.pyplot as plt
+   
+   sns.pairplot(df)
+   plt.show()
+   ```
 
+4. **Visualización**:
+   Se crean gráficos para ilustrar los hallazgos clave del análisis, como histogramas, diagramas de dispersión y gráficos de barras.
+   ```python
+   plt.figure(figsize=(10, 6))
+   sns.barplot(x='categoria', y='ventas', data=df)
+   plt.title('Ventas por Categoría')
+   plt.show()
+   ```
 
-df.dropna(inplace=True)
-df = df.drop_duplicates()
-Análisis Exploratorio: Se generan estadísticas descriptivas y se visualizan relaciones entre variables utilizando Seaborn y Matplotlib.
+## Contribuciones
 
-
-import seaborn as sns
-import matplotlib.pyplot as plt
-
-sns.pairplot(df)
-plt.show()
-Visualización: Se crean gráficos para ilustrar los hallazgos clave del análisis, como histogramas, diagramas de dispersión y gráficos de barras.
-
-
-plt.figure(figsize=(10, 6))
-sns.barplot(x='categoria', y='ventas', data=df)
-plt.title('Ventas por Categoría')
-plt.show()
-
-**Contribuciones**
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
 
-Haz un fork del proyecto.
-Crea una nueva rama (git checkout -b feature/mi-contribucion).
-Realiza tus cambios y haz commit (git commit -m 'Añadir nueva funcionalidad').
-Envía un pull request.
-Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (`git checkout -b feature/mi-contribucion`).
+3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva funcionalidad'`).
+4. Envía un pull request.
 
-Autor
-[Carlos Ricke] - [carlosricke.p@protonmail.com] - [Cricke2001]
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Autor
+
+[Tu Nombre] - [Tu Correo Electrónico] - [Tu Perfil de GitHub]
+
+---
+
+¡Gracias por tu interés en este proyecto! Espero que encuentres útil este análisis y las visualizaciones generadas.
+```
+
+Puedes personalizar este README según las características específicas de tu proyecto y los datos que estés utilizando. ¡Espero que te sirva!
