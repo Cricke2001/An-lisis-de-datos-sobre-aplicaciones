@@ -3,6 +3,8 @@
 ```markdown
 # Proyecto de Análisis de Datos con Pandas y Visualización con Matplotlib y Seaborn
 
+URL CSV: https://drive.google.com/file/d/1XX1NKxgOQr4P_92e1YVHeqbvzMpyt6dq/view?usp=sharing
+
 ## Descripción
 
 Este proyecto tiene como objetivo realizar un análisis exploratorio de datos (EDA) utilizando Python y varias bibliotecas populares, como Pandas, Matplotlib y Seaborn. Se utiliza Jupyter Notebook como entorno de desarrollo para facilitar la visualización y el análisis interactivo de los datos. El conjunto de datos proviene de [fuente de datos, por ejemplo, un CSV sobre ventas, clientes, etc.].
